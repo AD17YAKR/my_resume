@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: Calibri;
+  font-family: "Roboto";
   line-height: 1.4;
   background-color: #fff;
   color: #333;
@@ -24,29 +24,29 @@ body {
 header {
   text-align: center;
   padding: 10px;
-  background-color: #0f9d58;
-  border-bottom: 1.25px solid #f4b400; /* Google Yellow accent */
+  background-color: #fff;
+  border-bottom: 1.25px solid #f4b400;
   margin-top: 0;
 }
 
 header h1 {
-  font-size: 1.75em;
+  font-size: 1.52em;
   margin-bottom: 1.5px;
   margin-top: 0;
-  color: #ffffff;
+  color: #0f9d58; /* Add this line */
 }
 
 .contact span,
 .contact a {
   margin: 2px;
-  font-size: 0.95em;
-  color: #e8f0fe; /* Light blue for contrast */
+  font-size: 0.82em;
+  /* Apply the same Google gradient to contact details */
+  color: #f4b400;
 }
 
 .contact a {
   text-decoration: none;
-  color: #e8f0fe;
-  transition: color 0.2s;
+  color: #f4b400;
 }
 
 .contact a:hover {
@@ -59,7 +59,7 @@ section h2 {
   border-bottom: 1px solid #ddd;
   padding-bottom: 1.5px;
   color: #4285f4; /* Google Blue */
-  font-size: 1.1em;
+  font-size: 0.95em;
   border-left: 5px solid #f4b400; /* Google Yellow */
   padding-left: 10px;
 }
@@ -74,17 +74,17 @@ section h2 {
 .job h3,
 .edu h3 {
   color: #0f9d58;
-  font-size: 0.95em;
+  font-size: 0.82em;
 }
 
 /* Dates in Google Red */
 .duration {
   color: #db4437;
-  font-size: 0.8em;
+  font-size: 0.69em;
 }
 
 .job h4 {
-  font-size: 0.8em;
+  font-size: 0.69em;
   color: #4285f4; /* Google Blue */
   margin-bottom: 1.5px;
 }
@@ -126,18 +126,18 @@ ul li::before {
     padding: 5.25px;
   }
   header h1 {
-    font-size: 1.365em;
+    font-size: 1.18em;
   }
   section h2 {
-    font-size: 1.1025em;
+    font-size: 0.95em;
   }
   .job h3,
   .edu h3,
   .project h3 {
-    font-size: 1.0395em;
+    font-size: 0.9em;
   }
   .job h4 {
-    font-size: 0.84em;
+    font-size: 0.73em;
   }
 }
 
@@ -149,16 +149,16 @@ ul li::before {
 }
 
 .duration {
-  font-size: 12.6px;
+  font-size: 10.9px;
   color: #db4437;
 }
 
 ul li {
-  font-size: 0.8925em;
+  font-size: 0.77em;
 }
 
 .institution {
-  font-size: 0.9975em;
+  font-size: 0.86em;
 }
 
 a {
