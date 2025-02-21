@@ -9,7 +9,7 @@ body {
   line-height: 1.4;
   background-color: #fff;
   color: #333;
-  margin: 0;
+  margin: 3.5px;
   padding: 0;
 }
 
@@ -20,10 +20,12 @@ body {
   padding: 2.5px 15px;
 }
 
+/* Google Blue header */
 header {
   text-align: center;
-  padding-bottom: 7.5px;
-  border-bottom: 1.25px solid #cac9c9;
+  padding: 10px;
+  background-color: #0f9d58;
+  border-bottom: 1.25px solid #f4b400; /* Google Yellow accent */
   margin-top: 0;
 }
 
@@ -31,26 +33,35 @@ header h1 {
   font-size: 1.75em;
   margin-bottom: 1.5px;
   margin-top: 0;
+  color: #ffffff;
 }
 
 .contact span,
 .contact a {
   margin: 2px;
   font-size: 0.95em;
-  color: #555;
+  color: #e8f0fe; /* Light blue for contrast */
 }
 
 .contact a {
   text-decoration: none;
-  color: #0073e6;
+  color: #e8f0fe;
+  transition: color 0.2s;
 }
 
+.contact a:hover {
+  color: #f4b400; /* Google Yellow on hover */
+}
+
+/* Section headings with Google Yellow accent */
 section h2 {
   margin-top: 7.5px;
   border-bottom: 1px solid #ddd;
   padding-bottom: 1.5px;
-  color: #000000;
+  color: #4285f4; /* Google Blue */
   font-size: 1.1em;
+  border-left: 5px solid #f4b400; /* Google Yellow */
+  padding-left: 10px;
 }
 
 .job,
@@ -59,52 +70,74 @@ section h2 {
   margin-bottom: 5px;
 }
 
+/* Company names in Google Green */
 .job h3,
-.edu h3,
-.project h3 {
+.edu h3 {
+  color: #0f9d58;
   font-size: 0.95em;
-  color: #333;
+}
+
+/* Dates in Google Red */
+.duration {
+  color: #db4437;
+  font-size: 0.8em;
 }
 
 .job h4 {
   font-size: 0.8em;
-  color: #555;
+  color: #4285f4; /* Google Blue */
   margin-bottom: 1.5px;
 }
 
-.duration {
-  font-size: 0.8em;
-  color: #777;
-  margin-bottom: 2.5px;
-}
-
 ul {
-  list-style-type: disc;
-  padding-left: 15px; /* Dont change*/
+  list-style-type: none;
+  padding-left: 15px;
   margin-bottom: 2.5px;
 }
 
-li {
+/* Google Yellow bullet markers */
+ul li {
+  position: relative;
+  padding-left: 15px;
   margin-bottom: 3px;
 }
 
-@media (max-width: 768px) {
+ul li::before {
+  content: "•";
+  color: #f4b400;
+  position: absolute;
+  left: 0;
+}
+
+.skills strong {
+  color: #0f9d58; /* Google Green */
+}
+
+.projects h3 {
+  color: #4285f4; /* Google Blue */
+}
+
+.achievements li {
+  color: #5f6368; /* Google Gray */
+}
+
+@media (max-width: 824px) {
   .container {
-    padding: 5px;
+    padding: 5.25px;
   }
   header h1 {
-    font-size: 1.3em;
+    font-size: 1.365em;
   }
   section h2 {
-    font-size: 1.05em;
+    font-size: 1.1025em;
   }
   .job h3,
   .edu h3,
   .project h3 {
-    font-size: 0.99em;
+    font-size: 1.0395em;
   }
   .job h4 {
-    font-size: 0.8em;
+    font-size: 0.84em;
   }
 }
 
@@ -116,14 +149,23 @@ li {
 }
 
 .duration {
-  font-size: 12px;
-  color: gray;
+  font-size: 12.6px;
+  color: #db4437;
 }
 
 ul li {
-  font-size: 0.85em;
+  font-size: 0.8925em;
 }
 
 .institution {
-  font-size: 0.95em;
+  font-size: 0.9975em;
+}
+
+a {
+  text-decoration: none;
+  color: #0073e6;
+}
+
+.project a {
+  color: #0073e6;
 }
