@@ -1,14 +1,16 @@
+/* Revision: Global reset remains unchanged */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Revision: Updated text color to black for JPMorgan Chase theme */
 body {
   font-family: "Roboto";
   line-height: 1.4;
   background-color: #fff;
-  color: #333;
+  color: #000; /* Updated from #333 to black */
   margin: 3.5px;
   padding: 0;
 }
@@ -20,47 +22,47 @@ body {
   padding: 2.5px 15px;
 }
 
-/* Google Blue header */
+/* Revision: Updated header border to JPMorgan Chase blue (#002663) */
 header {
   text-align: center;
   padding: 10px;
   background-color: #fff;
-  border-bottom: 1.25px solid #f4b400;
+  border-bottom: 1.25px solid #002663; /* JPMorgan Chase blue */
   margin-top: 0;
 }
 
 header h1 {
-  font-size: 1.52em;
+  font-size: 1.75em;
   margin-bottom: 1.5px;
   margin-top: 0;
-  color: #0f9d58; /* Add this line */
+  color: #000; /* Changed from Google Green to black */
 }
 
+/* Revision: Updated contact details to use black instead of Google Yellow */
 .contact span,
 .contact a {
   margin: 2px;
   font-size: 0.82em;
-  /* Apply the same Google gradient to contact details */
-  color: #f4b400;
+  color: #000; /* Updated to black */
 }
 
 .contact a {
   text-decoration: none;
-  color: #f4b400;
+  color: #000; /* Updated to black */
 }
 
 .contact a:hover {
-  color: #f4b400; /* Google Yellow on hover */
+  color: #000; /* Remains black on hover */
 }
 
-/* Section headings with Google Yellow accent */
+/* Revision: Updated section headings to use black with JPMorgan Chase blue accent */
 section h2 {
   margin-top: 7.5px;
   border-bottom: 1px solid #ddd;
   padding-bottom: 1.5px;
-  color: #4285f4; /* Google Blue */
+  color: #000; /* Updated from Google Blue to black */
   font-size: 0.95em;
-  border-left: 5px solid #f4b400; /* Google Yellow */
+  border-left: 5px solid #002663; /* Updated accent to JPMorgan Chase blue */
   padding-left: 10px;
 }
 
@@ -70,22 +72,22 @@ section h2 {
   margin-bottom: 5px;
 }
 
-/* Company names in Google Green */
+/* Revision: Updated company names to black */
 .job h3,
 .edu h3 {
-  color: #0f9d58;
+  color: #000; /* Updated from Google Green to black */
   font-size: 0.82em;
 }
 
-/* Dates in Google Red */
+/* Revision: Updated date colors to black */
 .duration {
-  color: #db4437;
+  color: #000; /* Updated from Google Red to black */
   font-size: 0.69em;
 }
 
 .job h4 {
   font-size: 0.69em;
-  color: #4285f4; /* Google Blue */
+  color: #000; /* Updated from Google Blue to black */
   margin-bottom: 1.5px;
 }
 
@@ -95,30 +97,32 @@ ul {
   margin-bottom: 2.5px;
 }
 
-/* Google Yellow bullet markers */
+/* Revision: Updated bullet markers to black */
 ul li {
   position: relative;
   padding-left: 15px;
   margin-bottom: 3px;
+  font-size: 0.77em;
 }
 
 ul li::before {
   content: "•";
-  color: #f4b400;
+  color: #000; /* Updated from Google Yellow to black */
   position: absolute;
   left: 0;
 }
 
 .skills strong {
-  color: #0f9d58; /* Google Green */
+  color: #000; /* Updated from Google Green to black */
 }
 
 .projects h3 {
-  color: #4285f4; /* Google Blue */
+  font-size: 0.69em;
+  color: #000; /* Updated from Google Blue to black */
 }
 
 .achievements li {
-  color: #5f6368; /* Google Gray */
+  color: #000; /* Updated from Google Gray to black */
 }
 
 @media (max-width: 824px) {
@@ -134,7 +138,7 @@ ul li::before {
   .job h3,
   .edu h3,
   .project h3 {
-    font-size: 0.9em;
+    font-size: 0.69em;
   }
   .job h4 {
     font-size: 0.73em;
@@ -146,26 +150,24 @@ ul li::before {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  font-size: 1.15em;
 }
 
 .duration {
   font-size: 10.9px;
-  color: #db4437;
-}
-
-ul li {
-  font-size: 0.77em;
+  color: #000; /* Consistent update to black */
 }
 
 .institution {
   font-size: 0.86em;
 }
 
+/* Revision: Updated all link colors to black */
 a {
   text-decoration: none;
-  color: #0073e6;
+  color: #000; /* Updated from blue to black */
 }
 
 .project a {
-  color: #0073e6;
+  color: #000; /* Updated from blue to black */
 }

@@ -9,7 +9,6 @@ yarn.lock
 .env.*.local
 
 # Generated PDFs
-*.pdf
 resume.pdf
 
 # IDE specific files
