@@ -7,7 +7,7 @@
 body {
   font-family: "Roboto";
   line-height: 1.4;
-  background-color: #fff;
+  background-color: #FAFAFA;
   color: #333;
   margin: 3.5px;
   padding: 0;
@@ -16,16 +16,16 @@ body {
 .container {
   max-width: 900px;
   margin: 0px auto;
-  background: #fff;
+  background: #FAFAFA;
   padding: 2.5px 15px;
 }
 
-/* Google Blue header */
+/* CircleCI Dark Blue header */
 header {
   text-align: center;
   padding: 10px;
-  background-color: #fff;
-  border-bottom: 1.25px solid #f4b400;
+  background-color: #FAFAFA;
+  border-bottom: 1.25px solid #6D8B95;  /* muted accent */
   margin-top: 0;
 }
 
@@ -33,34 +33,34 @@ header h1 {
   font-size: 1.52em;
   margin-bottom: 1.5px;
   margin-top: 0;
-  color: #0f9d58; /* Add this line */
+  color: #003343; /* primary dark blue */
 }
 
 .contact span,
 .contact a {
   margin: 2px;
   font-size: 0.82em;
-  /* Apply the same Google gradient to contact details */
-  color: #f4b400;
+  /* muted accent for contact details */
+  color: #6D8B95;
 }
 
 .contact a {
   text-decoration: none;
-  color: #f4b400;
+  color: #6D8B95;
 }
 
 .contact a:hover {
-  color: #f4b400; /* Google Yellow on hover */
+  color: #6D8B95;
 }
 
-/* Section headings with Google Yellow accent */
+/* Section headings with CircleCI accents */
 section h2 {
   margin-top: 7.5px;
   border-bottom: 1px solid #ddd;
   padding-bottom: 1.5px;
-  color: #4285f4; /* Google Blue */
+  color: #002C3A; /* secondary dark blue */
   font-size: 0.95em;
-  border-left: 5px solid #f4b400; /* Google Yellow */
+  border-left: 5px solid #B3C2C7; /* light gray-blue */
   padding-left: 10px;
 }
 
@@ -70,22 +70,22 @@ section h2 {
   margin-bottom: 5px;
 }
 
-/* Company names in Google Green */
+/* Company names in CircleCI primary dark blue */
 .job h3,
 .edu h3 {
-  color: #0f9d58;
+  color: #003343;
   font-size: 0.82em;
 }
 
-/* Dates in Google Red */
+/* Dates in muted accent */
 .duration {
-  color: #db4437;
+  color: #6D8B95;
   font-size: 0.69em;
 }
 
 .job h4 {
   font-size: 0.69em;
-  color: #4285f4; /* Google Blue */
+  color: #002C3A; /* secondary dark blue */
   margin-bottom: 1.5px;
 }
 
@@ -95,7 +95,7 @@ ul {
   margin-bottom: 2.5px;
 }
 
-/* Google Yellow bullet markers */
+/* Light gray-blue bullet markers */
 ul li {
   position: relative;
   padding-left: 15px;
@@ -104,21 +104,21 @@ ul li {
 
 ul li::before {
   content: "•";
-  color: #f4b400;
+  color: #B3C2C7;
   position: absolute;
   left: 0;
 }
 
 .skills strong {
-  color: #0f9d58; /* Google Green */
+  color: #003343;
 }
 
 .projects h3 {
-  color: #4285f4; /* Google Blue */
+  color: #002C3A;
 }
 
 .achievements li {
-  color: #5f6368; /* Google Gray */
+  color: #6D8B95;
 }
 
 @media (max-width: 824px) {
@@ -150,7 +150,7 @@ ul li::before {
 
 .duration {
   font-size: 10.9px;
-  color: #db4437;
+  color: #6D8B95;
 }
 
 ul li {
@@ -163,9 +163,9 @@ ul li {
 
 a {
   text-decoration: none;
-  color: #0073e6;
+  color: #002C3A;
 }
 
 .project a {
-  color: #0073e6;
+  color: #002C3A;
 }
