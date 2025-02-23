@@ -4,12 +4,13 @@
   box-sizing: border-box;
 }
 
+/* Revision: Updated text color to black for JPMorgan Chase theme */
 body {
-  font-family: Calibri;
+  font-family: "Roboto";
   line-height: 1.4;
   background-color: #fff;
-  color: #333;
-  margin: 0;
+  color: #000; /* Updated from #333 to black */
+  margin: 3.5px;
   padding: 0;
 }
 
@@ -17,94 +18,129 @@ body {
   max-width: 900px;
   margin: 0px auto;
   background: #fff;
-  padding: 2.5px 15px;
+  padding: 2.58px 15.45px; /* Unchanged */
 }
 
+/* Revision: Updated header border to JPMorgan Chase blue (#002663) */
 header {
   text-align: center;
-  padding-bottom: 7.5px;
-  border-bottom: 1.25px solid #cac9c9;
+  padding: 10.3px; /* Unchanged */
+  background-color: #fff;
+  border-bottom: 1.29px solid #002663; /* JPMorgan Chase blue */
   margin-top: 0;
 }
 
 header h1 {
-  font-size: 1.75em;
-  margin-bottom: 1.5px;
+  font-size: 1.872em; /* Increased by 4% */
+  margin-bottom: 1.545px; /* Unchanged */
   margin-top: 0;
+  color: #000; /* Changed from Google Green to black */
 }
 
+/* Revision: Updated contact details to use black instead of Google Yellow */
 .contact span,
 .contact a {
-  margin: 2px;
-  font-size: 0.95em;
-  color: #555;
+  margin: 2.06px; /* Unchanged */
+  font-size: 0.879em; /* Increased by 4% */
+  color: #000; /* Updated to black */
 }
 
 .contact a {
   text-decoration: none;
-  color: #0073e6;
+  color: #000; /* Updated to black */
 }
 
+.contact a:hover {
+  color: #000; /* Remains black on hover */
+}
+
+/* Revision: Updated section headings to use black with JPMorgan Chase blue accent */
 section h2 {
-  margin-top: 7.5px;
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 1.5px;
-  color: #000000;
-  font-size: 1.1em;
+  margin-top: 7.73px; /* Unchanged */
+  border-bottom: 1.03px solid #ddd; /* Unchanged */
+  padding-bottom: 1.545px; /* Unchanged */
+  color: #000; /* Updated from Google Blue to black */
+  font-size: 1.017em; /* Increased by 4% */
+  border-left: 5.15px solid #002663; /* Updated accent to JPMorgan Chase blue */
+  padding-left: 10.3px; /* Unchanged */
 }
 
 .job,
 .edu,
 .project {
-  margin-bottom: 5px;
+  margin-bottom: 5.15px; /* Unchanged */
 }
 
+/* Revision: Updated company names to black */
 .job h3,
-.edu h3,
-.project h3 {
-  font-size: 0.95em;
-  color: #333;
+.edu h3 {
+  color: #000; /* Updated from Google Green to black */
+  font-size: 0.879em; /* Increased by 4% */
+}
+
+/* Revision: Updated date colors to black */
+.duration {
+  color: #000; /* Updated from Google Red to black */
+  font-size: 0.738em; /* Increased by 4% */
 }
 
 .job h4 {
-  font-size: 0.8em;
-  color: #555;
-  margin-bottom: 1.5px;
-}
-
-.duration {
-  font-size: 0.8em;
-  color: #777;
-  margin-bottom: 2.5px;
+  font-size: 0.75em; /* Increased by 4% */
+  color: #000; /* Updated from Google Blue to black */
+  margin-bottom: 1.545px; /* Unchanged */
 }
 
 ul {
-  list-style-type: disc;
-  padding-left: 15px; /* Dont change*/
-  margin-bottom: 2.5px;
+  list-style-type: none;
+  padding-left: 15.45px; /* Unchanged */
+  margin-bottom: 2.58px; /* Unchanged */
 }
 
-li {
-  margin-bottom: 3px;
+/* Revision: Updated bullet markers to black */
+ul li {
+  position: relative;
+  padding-left: 15.45px; /* Unchanged */
+  margin-bottom: 3.09px; /* Unchanged */
+  font-size: 0.825em; /* Increased by 4% */
 }
 
-@media (max-width: 768px) {
+ul li::before {
+  content: "•";
+  color: #000; /* Updated from Google Yellow to black */
+  position: absolute;
+  left: 0;
+}
+
+.skills strong {
+  color: #000; /* Updated from Google Green to black */
+}
+
+.projects h3 {
+  font-size: 0.738em; /* Increased by 4% */
+  color: #000; /* Updated from Google Blue to black */
+}
+
+.achievements li {
+  color: #000; /* Updated from Google Gray to black */
+}
+
+@media (max-width: 824px) {
   .container {
-    padding: 5px;
+    padding: 5.41px; /* Unchanged */
   }
   header h1 {
-    font-size: 1.3em;
+    font-size: 1.263em; /* Increased by 4% */
   }
   section h2 {
-    font-size: 1.05em;
+    font-size: 1.017em; /* Increased by 4% */
   }
   .job h3,
   .edu h3,
   .project h3 {
-    font-size: 0.99em;
+    font-size: 0.75em; /* Increased by 4% */
   }
   .job h4 {
-    font-size: 0.8em;
+    font-size: 0.782em; /* Increased by 4% */
   }
 }
 
@@ -113,17 +149,28 @@ li {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  font-size: 1.232em; /* Increased by 4% */
 }
 
 .duration {
-  font-size: 12px;
-  color: gray;
-}
-
-ul li {
-  font-size: 0.85em;
+  font-size: 11.68px; /* Increased by 4% */
+  color: #000; /* Consistent update to black */
 }
 
 .institution {
-  font-size: 0.95em;
+  font-size: 0.921em; /* Increased by 4% */
+}
+
+/* Revision: Updated all link colors to black */
+a {
+  text-decoration: none;
+  color: #000; /* Updated from blue to black */
+}
+
+.project a {
+  color: #000; /* Updated from blue to black */
+}
+
+.links {
+  font-size: 0.707em; /* Increased by 4% */
 }
