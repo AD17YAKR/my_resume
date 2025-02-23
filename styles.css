@@ -85,7 +85,7 @@ section h2 {
 }
 
 .job h4 {
-  font-size: 0.738em; /* Increased by 4% */
+  font-size: 0.75em; /* Increased by 4% */
   color: #000; /* Updated from Google Blue to black */
   margin-bottom: 1.545px; /* Unchanged */
 }
@@ -137,7 +137,7 @@ ul li::before {
   .job h3,
   .edu h3,
   .project h3 {
-    font-size: 0.738em; /* Increased by 4% */
+    font-size: 0.75em; /* Increased by 4% */
   }
   .job h4 {
     font-size: 0.782em; /* Increased by 4% */
