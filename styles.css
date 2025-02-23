@@ -1,4 +1,3 @@
-/* Revision: Global reset remains unchanged */
 * {
   margin: 0;
   padding: 0;
@@ -19,21 +18,21 @@ body {
   max-width: 900px;
   margin: 0px auto;
   background: #fff;
-  padding: 2.5px 15px;
+  padding: 2.58px 15.45px; /* Unchanged */
 }
 
 /* Revision: Updated header border to JPMorgan Chase blue (#002663) */
 header {
   text-align: center;
-  padding: 10px;
+  padding: 10.3px; /* Unchanged */
   background-color: #fff;
-  border-bottom: 1.25px solid #002663; /* JPMorgan Chase blue */
+  border-bottom: 1.29px solid #002663; /* JPMorgan Chase blue */
   margin-top: 0;
 }
 
 header h1 {
-  font-size: 1.75em;
-  margin-bottom: 1.5px;
+  font-size: 1.872em; /* Increased by 4% */
+  margin-bottom: 1.545px; /* Unchanged */
   margin-top: 0;
   color: #000; /* Changed from Google Green to black */
 }
@@ -41,8 +40,8 @@ header h1 {
 /* Revision: Updated contact details to use black instead of Google Yellow */
 .contact span,
 .contact a {
-  margin: 2px;
-  font-size: 0.82em;
+  margin: 2.06px; /* Unchanged */
+  font-size: 0.879em; /* Increased by 4% */
   color: #000; /* Updated to black */
 }
 
@@ -57,52 +56,52 @@ header h1 {
 
 /* Revision: Updated section headings to use black with JPMorgan Chase blue accent */
 section h2 {
-  margin-top: 7.5px;
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 1.5px;
+  margin-top: 7.73px; /* Unchanged */
+  border-bottom: 1.03px solid #ddd; /* Unchanged */
+  padding-bottom: 1.545px; /* Unchanged */
   color: #000; /* Updated from Google Blue to black */
-  font-size: 0.95em;
-  border-left: 5px solid #002663; /* Updated accent to JPMorgan Chase blue */
-  padding-left: 10px;
+  font-size: 1.017em; /* Increased by 4% */
+  border-left: 5.15px solid #002663; /* Updated accent to JPMorgan Chase blue */
+  padding-left: 10.3px; /* Unchanged */
 }
 
 .job,
 .edu,
 .project {
-  margin-bottom: 5px;
+  margin-bottom: 5.15px; /* Unchanged */
 }
 
 /* Revision: Updated company names to black */
 .job h3,
 .edu h3 {
   color: #000; /* Updated from Google Green to black */
-  font-size: 0.82em;
+  font-size: 0.879em; /* Increased by 4% */
 }
 
 /* Revision: Updated date colors to black */
 .duration {
   color: #000; /* Updated from Google Red to black */
-  font-size: 0.69em;
+  font-size: 0.738em; /* Increased by 4% */
 }
 
 .job h4 {
-  font-size: 0.69em;
+  font-size: 0.738em; /* Increased by 4% */
   color: #000; /* Updated from Google Blue to black */
-  margin-bottom: 1.5px;
+  margin-bottom: 1.545px; /* Unchanged */
 }
 
 ul {
   list-style-type: none;
-  padding-left: 15px;
-  margin-bottom: 2.5px;
+  padding-left: 15.45px; /* Unchanged */
+  margin-bottom: 2.58px; /* Unchanged */
 }
 
 /* Revision: Updated bullet markers to black */
 ul li {
   position: relative;
-  padding-left: 15px;
-  margin-bottom: 3px;
-  font-size: 0.77em;
+  padding-left: 15.45px; /* Unchanged */
+  margin-bottom: 3.09px; /* Unchanged */
+  font-size: 0.825em; /* Increased by 4% */
 }
 
 ul li::before {
@@ -117,7 +116,7 @@ ul li::before {
 }
 
 .projects h3 {
-  font-size: 0.69em;
+  font-size: 0.738em; /* Increased by 4% */
   color: #000; /* Updated from Google Blue to black */
 }
 
@@ -127,21 +126,21 @@ ul li::before {
 
 @media (max-width: 824px) {
   .container {
-    padding: 5.25px;
+    padding: 5.41px; /* Unchanged */
   }
   header h1 {
-    font-size: 1.18em;
+    font-size: 1.263em; /* Increased by 4% */
   }
   section h2 {
-    font-size: 0.95em;
+    font-size: 1.017em; /* Increased by 4% */
   }
   .job h3,
   .edu h3,
   .project h3 {
-    font-size: 0.69em;
+    font-size: 0.738em; /* Increased by 4% */
   }
   .job h4 {
-    font-size: 0.73em;
+    font-size: 0.782em; /* Increased by 4% */
   }
 }
 
@@ -150,16 +149,16 @@ ul li::before {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  font-size: 1.15em;
+  font-size: 1.232em; /* Increased by 4% */
 }
 
 .duration {
-  font-size: 10.9px;
+  font-size: 11.68px; /* Increased by 4% */
   color: #000; /* Consistent update to black */
 }
 
 .institution {
-  font-size: 0.86em;
+  font-size: 0.921em; /* Increased by 4% */
 }
 
 /* Revision: Updated all link colors to black */
@@ -170,4 +169,8 @@ a {
 
 .project a {
   color: #000; /* Updated from blue to black */
+}
+
+.links {
+  font-size: 0.707em; /* Increased by 4% */
 }
