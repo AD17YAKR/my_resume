@@ -4,13 +4,13 @@
   box-sizing: border-box;
 }
 
-/* Revision: Updated text color to black for JPMorgan Chase theme */
+/* Body remains with a white background and black text for readability */
 body {
   font-family: "Roboto";
   line-height: 1.4;
   background-color: #fff;
-  color: #000; /* Updated from #333 to black */
-  margin: 3.5px;
+  color: #000;
+  margin: 2.5px;
   padding: 0;
 }
 
@@ -18,129 +18,132 @@ body {
   max-width: 900px;
   margin: 0px auto;
   background: #fff;
-  padding: 2.58px 15.45px; /* Unchanged */
+  padding: 2.58px 15.45px;
 }
 
-/* Revision: Updated header border to JPMorgan Chase blue (#002663) */
+/* Header now uses NatWest Purple for its bottom border */
 header {
   text-align: center;
-  padding: 10.3px; /* Unchanged */
+  padding: 10.3px;
   background-color: #fff;
-  border-bottom: 1.29px solid #002663; /* JPMorgan Chase blue */
+  border-bottom: 1.29px solid #3c1053; /* NatWest Purple */
   margin-top: 0;
 }
 
 header h1 {
-  font-size: 1.872em; /* Increased by 4% */
-  margin-bottom: 1.545px; /* Unchanged */
+  font-size: 1.872em;
+  margin-bottom: 1.545px;
   margin-top: 0;
-  color: #000; /* Changed from Google Green to black */
+  color: #3c1053; /* NatWest Purple */
 }
 
-/* Revision: Updated contact details to use black instead of Google Yellow */
+/* Contact details updated with NatWest Red accents */
 .contact span,
 .contact a {
-  margin: 2.06px; /* Unchanged */
-  font-size: 0.879em; /* Increased by 4% */
-  color: #000; /* Updated to black */
+  margin: 2.06px;
+  font-size: 0.879em;
+  color: #e90000; /* NatWest Red */
 }
 
 .contact a {
   text-decoration: none;
-  color: #000; /* Updated to black */
+  color: #e90000; /* NatWest Red */
 }
 
 .contact a:hover {
-  color: #000; /* Remains black on hover */
+  color: #e90000;
 }
 
-/* Revision: Updated section headings to use black with JPMorgan Chase blue accent */
+/* Section headings now feature NatWest Purple accents */
 section h2 {
-  margin-top: 7.73px; /* Unchanged */
-  border-bottom: 1.03px solid #ddd; /* Unchanged */
-  padding-bottom: 1.545px; /* Unchanged */
-  color: #000; /* Updated from Google Blue to black */
-  font-size: 1.017em; /* Increased by 4% */
-  border-left: 5.15px solid #002663; /* Updated accent to JPMorgan Chase blue */
-  padding-left: 10.3px; /* Unchanged */
+  margin-top: 7.73px;
+  border-bottom: 1.03px solid #ddd;
+  padding-bottom: 1.545px;
+  color: #3c1053; /* NatWest Purple */
+  font-size: 1.017em;
+  border-left: 5.15px solid #3c1053; /* NatWest Purple */
+  padding-left: 10.3px;
 }
 
 .job,
 .edu,
 .project {
-  margin-bottom: 5.15px; /* Unchanged */
+  margin-bottom: 5.15px;
 }
 
-/* Revision: Updated company names to black */
+/* Company names in job/edu updated to NatWest Purple */
 .job h3,
 .edu h3 {
-  color: #000; /* Updated from Google Green to black */
-  font-size: 0.879em; /* Increased by 4% */
+  color: #3c1053; /* NatWest Purple */
+  font-size: 0.879em;
 }
 
-/* Revision: Updated date colors to black */
+/* Date text now uses NatWest Dark Red */
 .duration {
-  color: #000; /* Updated from Google Red to black */
-  font-size: 0.738em; /* Increased by 4% */
+  color: #c20000; /* NatWest Dark Red */
+  font-size: 0.738em;
 }
 
 .job h4 {
-  font-size: 0.75em; /* Increased by 4% */
-  color: #000; /* Updated from Google Blue to black */
-  margin-bottom: 1.545px; /* Unchanged */
+  font-size: 0.75em;
+  color: #e90000; /* NatWest Red */
+  margin-bottom: 1.545px;
 }
 
 ul {
   list-style-type: none;
-  padding-left: 15.45px; /* Unchanged */
-  margin-bottom: 2.58px; /* Unchanged */
+  padding-left: 15.45px;
+  margin-bottom: 2.58px;
 }
 
-/* Revision: Updated bullet markers to black */
+/* Bullet markers updated to NatWest Red */
 ul li {
   position: relative;
-  padding-left: 15.45px; /* Unchanged */
-  margin-bottom: 3.09px; /* Unchanged */
-  font-size: 0.825em; /* Increased by 4% */
+  padding-left: 15.45px;
+  margin-bottom: 3.09px;
+  font-size: 0.825em;
 }
 
 ul li::before {
   content: "•";
-  color: #000; /* Updated from Google Yellow to black */
+  color: #e90000; /* NatWest Red */
   position: absolute;
   left: 0;
 }
 
+/* Skills highlighted in NatWest Purple */
 .skills strong {
-  color: #000; /* Updated from Google Green to black */
+  color: #3c1053; /* NatWest Purple */
 }
 
+/* Project headings now in NatWest Purple */
 .projects h3 {
-  font-size: 0.738em; /* Increased by 4% */
-  color: #000; /* Updated from Google Blue to black */
+  font-size: 0.738em;
+  color: #3c1053; /* NatWest Purple */
 }
 
+/* Achievements list updated to NatWest Purple */
 .achievements li {
-  color: #000; /* Updated from Google Gray to black */
+  color: #3c1053; /* NatWest Purple */
 }
 
 @media (max-width: 824px) {
   .container {
-    padding: 5.41px; /* Unchanged */
+    padding: 5.41px;
   }
   header h1 {
-    font-size: 1.263em; /* Increased by 4% */
+    font-size: 1.263em;
   }
   section h2 {
-    font-size: 1.017em; /* Increased by 4% */
+    font-size: 1.017em;
   }
   .job h3,
   .edu h3,
   .project h3 {
-    font-size: 0.75em; /* Increased by 4% */
+    font-size: 0.75em;
   }
   .job h4 {
-    font-size: 0.782em; /* Increased by 4% */
+    font-size: 0.782em;
   }
 }
 
@@ -149,28 +152,29 @@ ul li::before {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  font-size: 1.232em; /* Increased by 4% */
+  font-size: 1.232em;
 }
 
+/* Responsive duration styling with NatWest Dark Red */
 .duration {
-  font-size: 11.68px; /* Increased by 4% */
-  color: #000; /* Consistent update to black */
+  font-size: 11.68px;
+  color: #c20000; /* NatWest Dark Red */
 }
 
 .institution {
-  font-size: 0.921em; /* Increased by 4% */
+  font-size: 0.921em;
 }
 
-/* Revision: Updated all link colors to black */
+/* All links now use NatWest Red */
 a {
   text-decoration: none;
-  color: #000; /* Updated from blue to black */
+  color: #e90000; /* NatWest Red */
 }
 
 .project a {
-  color: #000; /* Updated from blue to black */
+  color: #e90000; /* NatWest Red */
 }
 
 .links {
-  font-size: 0.707em; /* Increased by 4% */
+  font-size: 0.707em;
 }
