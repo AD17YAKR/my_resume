@@ -18,129 +18,124 @@ body {
   max-width: 900px;
   margin: 0px auto;
   background: #fff;
-  padding: 2.58px 15.45px; /* Unchanged */
+  padding: 2.5px 15px;
 }
 
 /* Revision: Updated header border to JPMorgan Chase blue (#002663) */
 header {
   text-align: center;
-  padding: 10.3px; /* Unchanged */
+  padding: 10px;
   background-color: #fff;
-  border-bottom: 1.29px solid #002663; /* JPMorgan Chase blue */
+  border-bottom: 1.25px solid #002663;
   margin-top: 0;
 }
 
 header h1 {
-  font-size: 1.872em; /* Increased by 4% */
-  margin-bottom: 1.545px; /* Unchanged */
+  font-size: 1.75em;
+  margin-bottom: 1.5px;
   margin-top: 0;
-  color: #000; /* Changed from Google Green to black */
+  color: #000;
 }
 
-/* Revision: Updated contact details to use black instead of Google Yellow */
 .contact span,
 .contact a {
-  margin: 2.06px; /* Unchanged */
-  font-size: 0.879em; /* Increased by 4% */
-  color: #000; /* Updated to black */
+  margin: 2px;
+  font-size: 0.82em;
+  color: #000;
 }
 
 .contact a {
   text-decoration: none;
-  color: #000; /* Updated to black */
+  color: #000;
 }
 
 .contact a:hover {
-  color: #000; /* Remains black on hover */
+  color: #000;
 }
 
-/* Revision: Updated section headings to use black with JPMorgan Chase blue accent */
 section h2 {
-  margin-top: 7.73px; /* Unchanged */
-  border-bottom: 1.03px solid #ddd; /* Unchanged */
-  padding-bottom: 1.545px; /* Unchanged */
+  margin-top: 7.5px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 1.5px;
   color: #000; /* Updated from Google Blue to black */
-  font-size: 1.017em; /* Increased by 4% */
-  border-left: 5.15px solid #002663; /* Updated accent to JPMorgan Chase blue */
-  padding-left: 10.3px; /* Unchanged */
+  font-size: 0.95em;
+  border-left: 5px solid #002663; /* Updated accent to JPMorgan Chase blue */
+  padding-left: 10px;
 }
 
 .job,
 .edu,
 .project {
-  margin-bottom: 5.15px; /* Unchanged */
+  margin-bottom: 5px;
 }
 
-/* Revision: Updated company names to black */
 .job h3,
 .edu h3 {
-  color: #000; /* Updated from Google Green to black */
-  font-size: 0.879em; /* Increased by 4% */
+  color: #000;
+  font-size: 0.82em;
 }
 
-/* Revision: Updated date colors to black */
 .duration {
-  color: #000; /* Updated from Google Red to black */
-  font-size: 0.738em; /* Increased by 4% */
+  color: #000;
+  font-size: 0.69em;
 }
 
 .job h4 {
-  font-size: 0.75em; /* Increased by 4% */
-  color: #000; /* Updated from Google Blue to black */
-  margin-bottom: 1.545px; /* Unchanged */
+  font-size: 0.69em;
+  color: #000;
+  margin-bottom: 1.5px;
 }
 
 ul {
   list-style-type: none;
-  padding-left: 15.45px; /* Unchanged */
-  margin-bottom: 2.58px; /* Unchanged */
+  padding-left: 15px;
+  margin-bottom: 2.5px;
 }
 
-/* Revision: Updated bullet markers to black */
 ul li {
   position: relative;
-  padding-left: 15.45px; /* Unchanged */
-  margin-bottom: 3.09px; /* Unchanged */
-  font-size: 0.825em; /* Increased by 4% */
+  padding-left: 15px;
+  margin-bottom: 3px;
+  font-size: 0.77em;
 }
 
 ul li::before {
   content: "•";
-  color: #000; /* Updated from Google Yellow to black */
+  color: #000;
   position: absolute;
   left: 0;
 }
 
 .skills strong {
-  color: #000; /* Updated from Google Green to black */
+  color: #000;
 }
 
 .projects h3 {
-  font-size: 0.738em; /* Increased by 4% */
-  color: #000; /* Updated from Google Blue to black */
+  font-size: 0.69em;
+  color: #000;
 }
 
 .achievements li {
-  color: #000; /* Updated from Google Gray to black */
+  color: #000;
 }
 
 @media (max-width: 824px) {
   .container {
-    padding: 5.41px; /* Unchanged */
+    padding: 5.25px;
   }
   header h1 {
-    font-size: 1.263em; /* Increased by 4% */
+    font-size: 1.18em;
   }
   section h2 {
-    font-size: 1.017em; /* Increased by 4% */
+    font-size: 0.95em;
   }
   .job h3,
   .edu h3,
   .project h3 {
-    font-size: 0.75em; /* Increased by 4% */
+    font-size: 0.69em;
   }
   .job h4 {
-    font-size: 0.782em; /* Increased by 4% */
+    font-size: 0.73em;
   }
 }
 
@@ -149,30 +144,25 @@ ul li::before {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  font-size: 1.232em; /* Increased by 4% */
+  font-size: 1.15em;
 }
 
 .duration {
-  font-size: 11.68px; /* Increased by 4% */
-  color: #000; /* Consistent update to black */
+  font-size: 10.9px;
+  color: #000;
 }
 
 .institution {
-  font-size: 0.921em; /* Increased by 4% */
+  font-size: 0.86em;
 }
 
-/* Revision: Updated all link colors to black */
 a {
   text-decoration: none;
-  color: #000; /* Updated from blue to black */
+  color: #000;
 }
 
 .project a {
-  color: #000; /* Updated from blue to black */
-}
-
-.links {
-  font-size: 0.707em; /* Increased by 4% */
+  color: #000;
 }
 
 .profile-icon {
