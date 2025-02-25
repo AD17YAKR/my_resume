@@ -174,3 +174,7 @@ a {
 .links {
   font-size: 0.707em; /* Increased by 4% */
 }
+
+.profile-icon {
+  vertical-align: -2.5px;
+}
