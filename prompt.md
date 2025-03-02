@@ -38,7 +38,7 @@ Technical specificity improvements
 ATS-friendly formatting standards
 Role-specific adaptability
 
----
+----------
 
 I have a resume in HTML format that I plan to convert to PDF later, so the current style and UI must remain unchanged. I need you to optimize this resume for ATS (Applicant Tracking Systems) by incorporating a curated list of industry-specific keywords and phrases directly into the HTML content. Please ensure the following:
 Preserve HTML Style/UI: Use the provided HTML as a base without modifying its visual design, layout, or UI elements.

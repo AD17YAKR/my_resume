@@ -10,7 +10,7 @@ body {
   line-height: 1.4;
   background-color: #fff;
   color: #000; /* Updated from #333 to black */
-  margin: 3.5px;
+  margin: 1.5px;
   padding: 0;
 }
 
@@ -32,7 +32,7 @@ header {
 
 header h1 {
   font-size: 1.872em; /* Increased by 4% */
-  margin-bottom: 1.545px; /* Unchanged */
+  margin-bottom: 1.245px; /* Unchanged */
   margin-top: 0;
   color: #000; /* Changed from Google Green to black */
 }
