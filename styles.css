@@ -1,141 +1,148 @@
+:root {
+  --fontScalerFactor: 1.03; /* Adjust font scaling */
+  --primary-color: #2c2b2b; /* Dark gray for main text */
+  --secondary-color: #363535; /* Lighter gray for secondary text */
+  --border-color: #464444; /* Soft gray for borders */
+  --background-color: #fff; /* White background */
+  --accent-color: #11222e;
+}
+
 * {
   margin: 0;
-  padding: 0;
+  padding: 0.5;
   box-sizing: border-box;
 }
 
-/* Revision: Updated text color to black for JPMorgan Chase theme */
 body {
-  font-family: "Roboto";
+  font-family: Arial;
   line-height: 1.4;
-  background-color: #fff;
-  color: #000; /* Updated from #333 to black */
-  margin: 3.5px;
-  padding: 0;
+  background-color: var(--background-color);
+  color: var(--primary-color);
+  margin: 1.5px;
+  padding: 0.5;
 }
 
 .container {
   max-width: 900px;
   margin: 0px auto;
-  background: #fff;
-  padding: 2.5px 15px;
+  background: var(--background-color);
+  padding: 2.58px 15.45px;
 }
 
-/* Revision: Updated header border to JPMorgan Chase blue (#002663) */
 header {
   text-align: center;
-  padding: 10px;
-  background-color: #fff;
-  border-bottom: 1.25px solid #002663;
+  padding: 10.3px;
+  background-color: var(--background-color);
+  border-bottom: 1.29px solid var(--accent-color);
   margin-top: 0;
 }
 
 header h1 {
-  font-size: 2.45em;
-  margin-bottom: 1.5px;
+  font-size: calc(1.95em * var(--fontScalerFactor));
+  margin-bottom: 1.245px;
   margin-top: 0;
-  color: #000;
+  color: var(--primary-color);
 }
 
 .contact span,
 .contact a {
-  margin: 2px;
-  font-size: 0.82em;
-  color: #000;
+  margin: 2.06px;
+  font-size: calc(0.879em * var(--fontScalerFactor));
+  color: var(--primary-color);
 }
 
 .contact a {
   text-decoration: none;
-  color: #000;
+  color: var(--primary-color);
 }
 
 .contact a:hover {
-  color: #000;
+  color: var(--accent-color);
 }
 
 section h2 {
-  margin-top: 7.5px;
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 1.5px;
-  color: #000; /* Updated from Google Blue to black */
-  font-size: 0.95em;
-  border-left: 5px solid #002663; /* Updated accent to JPMorgan Chase blue */
-  padding-left: 10px;
+  margin-top: 7.73px;
+  margin-bottom: 7.73px;
+  border-bottom: 1.03px solid var(--border-color);
+  padding-bottom: 1.1px;
+  color: var(--primary-color);
+  font-size: calc(1.25em * var(--fontScalerFactor));
+  padding-left: 0.5px;
 }
 
 .job,
 .edu,
 .project {
-  margin-bottom: 5px;
+  margin-bottom: 5.15px;
 }
 
 .job h3,
 .edu h3 {
-  color: #000;
-  font-size: 0.82em;
+  color: var(--primary-color);
+  font-size: calc(0.879em * var(--fontScalerFactor));
 }
 
 .duration {
-  color: #000;
-  font-size: 0.69em;
+  color: var(--secondary-color);
+  font-size: calc(0.738em * var(--fontScalerFactor));
 }
 
 .job h4 {
-  font-size: 0.69em;
-  color: #000;
-  margin-bottom: 1.5px;
+  font-size: calc(0.75em * var(--fontScalerFactor));
+  color: var(--primary-color);
+  margin-bottom: 1.25px;
 }
 
 ul {
   list-style-type: none;
-  padding-left: 15px;
-  margin-bottom: 2.5px;
+  padding-left: 10.45px;
+  margin-bottom: 1.58px;
 }
 
 ul li {
   position: relative;
-  padding-left: 15px;
-  margin-bottom: 3px;
-  font-size: 0.77em;
+  padding-left: 10.45px;
+  margin-bottom: 2.09px;
+  font-size: calc(0.825em * var(--fontScalerFactor));
 }
 
 ul li::before {
   content: "•";
-  color: #000;
+  color: var(--accent-color);
   position: absolute;
   left: 0;
 }
 
 .skills strong {
-  color: #000;
+  color: var(--primary-color);
 }
 
 .projects h3 {
-  font-size: 0.69em;
-  color: #000;
+  font-size: calc(0.738em * var(--fontScalerFactor));
+  color: var(--primary-color);
 }
 
 .achievements li {
-  color: #000;
+  color: var(--primary-color);
 }
 
 @media (max-width: 824px) {
   .container {
-    padding: 5.25px;
+    padding: 7.41px;
   }
   header h1 {
-    font-size: 1.75em;
+    font-size: calc(1.65em * var(--fontScalerFactor));
   }
   section h2 {
-    font-size: 0.95em;
+    font-size: calc(1.017em * var(--fontScalerFactor));
   }
   .job h3,
   .edu h3,
   .project h3 {
-    font-size: 0.69em;
+    font-size: calc(0.75em * var(--fontScalerFactor));
   }
   .job h4 {
-    font-size: 0.73em;
+    font-size: calc(0.782em * var(--fontScalerFactor));
   }
 }
 
@@ -144,27 +151,27 @@ ul li::before {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  font-size: 1.15em;
+  font-size: calc(1.232em * var(--fontScalerFactor));
 }
 
 .duration {
-  font-size: 10.9px;
-  color: #000;
+  font-size: calc(11.68px * var(--fontScalerFactor));
+  color: var(--secondary-color);
 }
 
 .institution {
-  font-size: 0.86em;
+  font-size: calc(0.921em * var(--fontScalerFactor));
 }
 
 a {
   text-decoration: none;
-  color: #000;
+  color: var(--primary-color);
 }
 
 .project a {
-  color: #000;
+  color: var(--primary-color);
 }
 
-.profile-icon {
-  vertical-align: -2.5px;
+.links {
+  font-size: calc(0.707em * var(--fontScalerFactor));
 }
