@@ -1,5 +1,5 @@
 :root {
-  --fontScalerFactor: 1.03; /* Adjust font scaling */
+  --fontScalerFactor: 1.05; /* Adjust font scaling */
   --primary-color: #2c2b2b; /* Dark gray for main text */
   --secondary-color: #363535; /* Lighter gray for secondary text */
   --border-color: #464444; /* Soft gray for borders */
@@ -174,4 +174,17 @@ a {
 
 .links {
   font-size: calc(0.707em * var(--fontScalerFactor));
+}
+
+.video-demo {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.github-repo {
+  color: #0066cc;
+  text-decoration: none;
+}
+.blue-link {
+  color: blue;
 }
