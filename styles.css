@@ -1,59 +1,61 @@
 :root {
-  --fontScalerFactor: 1.05; /* Adjust font scaling */
+  --fontScalerFactor: 0.95; /* Adjust font scaling */
   --primary-color: #2c2b2b; /* Dark gray for main text */
   --secondary-color: #363535; /* Lighter gray for secondary text */
   --border-color: #464444; /* Soft gray for borders */
   --background-color: #fff; /* White background */
   --accent-color: #11222e;
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.15rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
 }
 
 * {
   margin: 0;
-  padding: 0.5;
+  padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  font-family: Arial;
-  line-height: 1.4;
+  font-family: Calibri, sans-serif;
+  line-height: 1.2;
   background-color: var(--background-color);
   color: var(--primary-color);
-  margin: 1.5px;
-  padding: 0.5;
+  margin: var(--spacing-sm);
+  padding: var(--spacing-sm);
 }
 
 .container {
   max-width: 900px;
-  margin: 0px auto;
+  margin: 0 auto;
   background: var(--background-color);
-  padding: 2.58px 15.45px;
+  padding: var(--spacing-md) var(--spacing-lg);
 }
 
 header {
   text-align: center;
-  padding: 10.3px;
+  padding: var(--spacing-md);
   background-color: var(--background-color);
-  border-bottom: 1.29px solid var(--accent-color);
+  border-bottom: 1px solid var(--accent-color);
   margin-top: 0;
 }
 
 header h1 {
   font-size: calc(1.95em * var(--fontScalerFactor));
-  margin-bottom: 1.245px;
-  margin-top: 0;
+  margin: var(--spacing-xs) 0 var(--spacing-xs);
   color: var(--primary-color);
 }
 
 .contact span,
 .contact a {
-  margin: 2.06px;
+  margin: var(--spacing-xs);
   font-size: calc(0.879em * var(--fontScalerFactor));
   color: var(--primary-color);
 }
 
 .contact a {
   text-decoration: none;
-  color: var(--primary-color);
 }
 
 .contact a:hover {
@@ -61,19 +63,17 @@ header h1 {
 }
 
 section h2 {
-  margin-top: 7.73px;
-  margin-bottom: 7.73px;
-  border-bottom: 1.03px solid var(--border-color);
-  padding-bottom: 1.1px;
+  margin: var(--spacing-md) 0 var(--spacing-sm);
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: var(--spacing-xs);
   color: var(--primary-color);
   font-size: calc(1.25em * var(--fontScalerFactor));
-  padding-left: 0.5px;
 }
 
 .job,
 .edu,
 .project {
-  margin-bottom: 5.15px;
+  margin-bottom: var(--spacing-md);
 }
 
 .job h3,
@@ -90,19 +90,19 @@ section h2 {
 .job h4 {
   font-size: calc(0.75em * var(--fontScalerFactor));
   color: var(--primary-color);
-  margin-bottom: 1.25px;
+  margin-bottom: var(--spacing-xs);
 }
 
 ul {
-  list-style-type: none;
-  padding-left: 10.45px;
-  margin-bottom: 1.58px;
+  list-style: none;
+  padding-left: var(--spacing-md);
+  margin-bottom: var(--spacing-sm);
 }
 
 ul li {
   position: relative;
-  padding-left: 10.45px;
-  margin-bottom: 2.09px;
+  padding-left: var(--spacing-md);
+  margin-bottom: var(--spacing-xs);
   font-size: calc(0.825em * var(--fontScalerFactor));
 }
 
@@ -128,7 +128,7 @@ ul li::before {
 
 @media (max-width: 824px) {
   .container {
-    padding: 7.41px;
+    padding: var(--spacing-sm);
   }
   header h1 {
     font-size: calc(1.65em * var(--fontScalerFactor));
@@ -154,11 +154,6 @@ ul li::before {
   font-size: calc(1.232em * var(--fontScalerFactor));
 }
 
-.duration {
-  font-size: calc(11.68px * var(--fontScalerFactor));
-  color: var(--secondary-color);
-}
-
 .institution {
   font-size: calc(0.921em * var(--fontScalerFactor));
 }
@@ -168,7 +163,8 @@ a {
   color: var(--primary-color);
 }
 
-.project a {
+.project a,
+.links a {
   color: var(--primary-color);
 }
 
@@ -176,15 +172,12 @@ a {
   font-size: calc(0.707em * var(--fontScalerFactor));
 }
 
-.video-demo {
-  color: #0066cc;
-  text-decoration: none;
-}
-
+.video-demo,
 .github-repo {
   color: #0066cc;
   text-decoration: none;
 }
+
 .blue-link {
   color: blue;
 }

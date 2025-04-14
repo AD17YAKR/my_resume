@@ -6,50 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aditya Kumar Singh - Resume</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
 </head>
 
 <body>
     <div class="container">
-        <!-- In your <head>, include Font Awesome -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
-
         <header>
             <h1>Aditya Kumar Singh</h1>
             <p class="contact">
-                <span>
-                    <a href="tel:+916290949425">
-                        <i class="fas fa-phone-alt"></i> +91 6290949425
-                    </a>
-                </span> |
-                <span>
-                    <a href="mailto:adityasingh.110601@gmail.com">
-                        <i class="fas fa-envelope"></i> adityasingh.110601@gmail.com
-                    </a>
-                </span> |
-                <span>
-                    <i class="fas fa-map-marker-alt"></i> Kolkata, India
-                </span> |
-                <a href="https://www.linkedin.com/in/ad17yakr">
-                    <i class="fab fa-linkedin"></i> ad17yakr
-                </a> |
-                <a href="https://github.com/AD17YAKR/">
-                    <i class="fab fa-github"></i> AD17YAKR
-                </a>
+                <span><a href="tel:+916290949425"><i class="fas fa-phone-alt"></i> +91 6290949425</a></span> |
+                <span><a href="mailto:adityasingh.110601@gmail.com"><i class="fas fa-envelope"></i>
+                        adityasingh.110601@gmail.com</a></span> |
+                <span><i class="fas fa-map-marker-alt"></i> India</span> |
+                <a href="https://www.linkedin.com/in/theadityakumarsingh"><i class="fab fa-linkedin"></i>
+                    theadityakumarsingh</a> |
+                <a href="https://github.com/AD17YAKR"><i class="fab fa-github"></i> AD17YAKR</a>
             </p>
         </header>
-        <section class="education">
-            <h2>Education</h2>
-            <div class="edu">
-                <div class="experience-row">
-                    <h3>B.Tech in Computer Science and Engineering</h3>
-                    <span class="duration">August 2019 — August 2023 | India</span>
-                </div>
-                <p class="institution">Ramkrishna Mahato Government Engineering College (CGPA: 9.2)</p>
-            </div>
-        </section>
 
         <section class="experience">
             <h2>Experience</h2>
+
             <div class="job">
                 <div class="experience-row">
                     <h3>Accenture</h3>
@@ -57,171 +34,103 @@
                 </div>
                 <h4>Associate Software Engineer</h4>
                 <ul>
-                    <li>Reduced Salesforce data migration time by 75% using Python scripts to automate repetitive
-                        processes</li>
-                    <li>Improved code quality by refactoring code, conducting peer code reviews, and implementing unit
-                        testing practices
-                        across 5+ projects</li>
-
-                    <li>Saved <b>$45,000</b> annually by developing an in-house CRM email <b>microservice</b> using
-                        <b>Java, Spring
-                            Boot</b>, and SendGrid, creating RESTful APIs
-                    </li>
-
-                    <li>Maintained 100% deployment success rate by collaborating on CI/CD pipeline maintenance using
-                        Docker</li>
+                    <li>Led end-to-end development and migration of an in-house CRM email microservice using Java,
+                        Spring Boot, and SendGrid, replacing Hubspot CRM and saving $45,000 annually.</li>
+                    <li>Redesigned the architecture to ensure scalability and minimal downtime. Designed databases,
+                        created HLD/LLD using OOD patterns, ensuring fault tolerance and scalability for 1000+ daily
+                        email events.</li>
+                    <li>Built a robust Salesforce data migration pipeline using Python and Salesforce CLI, automating
+                        data transfers and reducing migration time by 75%.</li>
+                    <li>Addressed 10+ security vulnerabilities (e.g., HTTP parameter pollution, XSS, CSRF, SQL
+                        injection) and implemented CSP headers for a secure application environment.</li>
+                    <li>Improved deployment success rate by 10% by collaborating on CI/CD pipeline using Docker and
+                        optimizing Bitbucket pipeline configurations.</li>
                 </ul>
             </div>
 
             <div class="job">
                 <div class="experience-row">
-                    <h3>EzeRx - Sun Pharma Affiliated Company</h3>
+                    <h3>EzeRx (Sun Pharma Affiliated)</h3>
                     <span class="duration">September 2023 — March 2024 | Kolkata, India</span>
                 </div>
-                <h4>Software Engineer</h4>
+                <h4>Mobile App Developer</h4>
                 <ul>
-                    <li>Awarded Employee of the Month (Dec 2023) for enabling complex offline calculations with an
-                        in-app Python stats model </li>
-                    <li>Reduced code duplication by 40% through development of reusable Flutter widgets following
-                        Material
-                        Design principles</li>
-                    <li>Improved app performance by 30% by optimizing state management and reducing exceptions by 85%
-                        through
-                        error handling improvements</li>
-                    <li>Decreased app size by 49% using asset optimization techniques and code minification</li>
-                    <li>Achieved 85% code coverage by implementing unit testing framework, reducing post-release bugs by
-                        60%
+                    <li>Awarded Employee of the Month (Dec 2023) for enabling complex offline calculations using an
+                        in-app Python statistical model integrated with a Flutter app via the serious_python package.
                     </li>
-                    <li>Reduced development redundancy by 40% through cross-platform synchronization architecture for
-                        Android/iOS feature parity</li>
-                    <!-- <li>Cut server costs by 70% by developing <b>Java, Spring Boot</b> backend services with optimized
-                        API
-                        calls</li> -->
+                    <li>Reduced app size by 49% by removing unused assets, eliminating unnecessary packages, and
+                        upgrading dependencies. Migrated Play Store deployment from APK to AAB.</li>
+                    <li>Increased unit test coverage by 85% using Mockito and TDD. Refactored the codebase, reducing its
+                        size by 30% via reusable widgets, MVC architecture, and robust error handling.</li>
+                    <li>Developed a cross-platform sync architecture, achieving 100% feature parity between Android and
+                        iOS including complex features like BLE, improving consistency and UX.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="projects">
+            <h2>Projects</h2>
+
+            <div class="project">
+                <h3>Bingo Nostalgia Rewind |
+                    <a href="https://play.google.com/store/apps/details?id=com.shashank.fyi.bingoMultiplayer"
+                        target="_blank" class="blue-link">Play Store</a>
+                </h3>
+                <ul>
+                    <li>Implemented a real-time multiplayer Bingo game using Flutter and Firebase, with GetX for state
+                        management and Firebase Auth for user authentication.</li>
+                    <li>Integrated Google Mobile Ads for monetization and Crashlytics for error tracking. Designed an AI
+                        opponent with graph traversal logic, deployed to Play Store, gaining 100+ active users.</li>
                 </ul>
             </div>
 
-            <!-- <div class="job">
-                <div class="experience-row">
-                    <h3>Beta Testers</h3>
-                    <span class="duration">Nov '21 — Apr '22 | Kolkata, India (Remote)</span>
-                </div>
-                <h4>Mobile App Development Intern</h4>
-                <ul>
-                    <li>Acquired 100+ users in first month by developing 2 Flutter apps with Firebase backend
-                        integration</li>
-                    <li>Increased user engagement by 30% through Google Maps API integration for location-based features
-                    </li>
-                    <li>Reduced server load by 20% by implementing lazy loading and pagination in API responses</li>
-                </ul>
-            </div> -->
-        </section>
-
-
-        <section class="projects" aria-label="Projects">
-            <h2>Projects</h2>
             <div class="project">
                 <h3>PaperFlow |
                     <a href="https://github.com/AD17YAKR/PaperFlow" target="_blank" class="blue-link">GitHub Repo</a>
-                    |
-                    <a href="https://user-images.githubusercontent.com/71925269/251809509-6d3f2666-25be-4f99-909c-863f9ecbd352.webm"
-                        target="_blank">Video Demo</a>
-
                 </h3>
                 <ul>
-                    <li>Developed a full-stack PDF management app with Nest.js,
-                        MongoDB, Flutter, and REST APIs.
-                    </li>
-                    <li>Implemented a responsive Flutter UI and used an <b>AWS</b> S3 bucket
-                        for secure file storage.</li>
-
-                </ul>
-            </div>
-            <div class="project">
-                <h3>SmartVault |
-                    <a href="https://github.com/AD17YAKR/smartvault_authentication" target="_blank"
-                        class="blue-link">GitHub
-                        Repo</a>
-                </h3>
-                <ul>
-                    <li>Engineered a smart warranty vault with <b>Spring Boot, Java,</b>
-                        PostgreSQL, and Flutter using <b>microservices</b> for robust
-                        software architecture and scalability.
-                    </li>
-
+                    <li>Built an end-to-end full stack PDF management and collaboration system with a Flutter-based
+                        hybrid app, Nest.js backend, MongoDB, OAuth, and REST APIs.</li>
+                    <li>Used an S3-compatible bucket for PDF storage. Backend deployed on Render, web app hosted on
+                        Firebase for cross-platform accessibility and secure file handling.</li>
                 </ul>
             </div>
         </section>
 
-        <section class="skills" aria-label="Skills">
+        <section class="skills">
             <h2>Skills</h2>
             <ul>
-                <li><b>Programming Languages:</b> C++, Java, Python</li>
-                <li><b>Frameworks & SDKs:</b> Flutter, JPA, Hibernate, Spring Boot, Spring MVC, Spring
-                    Security, Android SDK, iOS</li>
-                <li><b>Databases:</b> MySQL, MongoDB, PostgreSQL</li>
-                <li><b>Cloud & DevOps:</b> AWS EKS, Virtualisation Technologies</li>
-                <li><b>Tools:</b> Bug Tracking Tools (e.g., JIRA), CI/CD, Docker</li>
-                <li>
-                    <b>Competitive Profile Links:</b>
-                    <u><a href="https://leetcode.com/AD17YAKR" class="blue-link">
-                            <img src="leetcode.svg" alt="Leetcode" width="16" height="16" class="profile-icon">
-                            Leetcode
-                        </a></u> |<u> <a href="https://codeforces.com/profile/AD17YA?graphType=rated" class="blue-link">
-                            <img src="codeforces.svg" alt="Codeforces" width="16" height="16" class="profile-icon">
-                            Codeforces
-                        </a></u> |
-                    <u><a href="https://www.geeksforgeeks.org/user/ad17yakr/" class="blue-link">
-                            <img src="geeksforgeeks.svg" alt="GeeksForGeeks" width="16" height="16"
-                                class="profile-icon">
-                            GeeksForGeeks
-                        </a></u> |
-                    <u><a href="https://www.codechef.com/users/ad17yakr" class="blue-link">
-                            <img src="codechef.svg" alt="CodeChef" width="16" height="16" class="profile-icon">
-                            CodeChef
-                        </a></u>
-
-                </li>
+                <li><b>Programming:</b> Java, Python, Dart, TypeScript, SQL</li>
+                <li><b>Databases:</b> PostgreSQL, MongoDB, MySQL</li>
+                <li><b>VCS & Tools:</b> Git, Postman, Bitbucket, JIRA, Maven, Gradle, VSCode, Confluence, Docker</li>
+                <li><b>Frameworks:</b> Spring Boot, Flutter, Spring Security</li>
+                <li><b>Core Subjects:</b> DSA, Computer Networks, DBMS, OS</li>
+                <li><b>Cloud/DevOps:</b> AWS, Bitbucket Pipelines</li>
+                <li><b>Others:</b> Multithreading, Design Patterns, SOLID, LLD, HLD, Microservices</li>
             </ul>
         </section>
-        <section class="achievements" aria-label="Achievements">
+
+        <section class="education">
+            <h2>Education</h2>
+            <div class="edu">
+                <div class="experience-row">
+                    <h3>B.Tech in Computer Science and Engineering</h3>
+                    <span class="duration">August 2019 — June 2023 | India</span>
+                </div>
+                <p class="institution">Purulia Government Engineering College (CGPA: 9.2)</p>
+            </div>
+        </section>
+
+        <section class="achievements">
             <h2>Achievements</h2>
             <ul>
-
-                <li>
-                    Solved 600+ questions on
-                    <a href="https://leetcode.com/AD17YAKR">Leetcode</a>,
-                    250+ questions on
-                    <a href="https://www.geeksforgeeks.org/user/ad17yakr/">GeeksForGeeks</a>,
-                    50+ questions on
-                    <a href="https://www.codechef.com/users/ad17yakr">CodeChef</a>, and
-                    50+ questions on
-                    <a href="https://codeforces.com/profile/AD17YA?graphType=rated">Codeforces</a>.
+                <li>Solved 600+ questions on <a href="https://leetcode.com/AD17yakr">Leetcode</a>, 250+ on <a
+                        href="https://www.geeksforgeeks.org/user/ad17yakr/">GFG</a>, and more on CodeChef & Codeforces.
                 </li>
-                <li>
-                    Achieved the highest rating of 1851 on
-                    <a href="https://leetcode.com/AD17YAKR">Leetcode and attained the Knight
-                        badge.</a>
-                </li>
-                <li>
-                    Consistently ranked under 1500 in
-                    <a href="https://leetcode.com/AD17YAKR">Leetcode Contests</a>.
-                </li>
-                <li>
-                    Ranked 91st in the
-                    <a href="https://www.geeksforgeeks.org/user/ad17yakr/">GeeksForGeeks Weekly Coding Contest
-                        98</a>.
-                </li>
-                <li>
-                    Achieved
-                    <a href="https://www.codechef.com/users/ad17yakr">CodeChef</a> rankings:
-                    860 in Starters 146, 957 in Starters 147, and 897
-                    in Starters 162.
-                </li>
-                <li>
-                    Ranked 4139 in
-                    <a href="https://drive.google.com/file/d/1Fcy6xP8VeRG9NZ3TnVrdyYYNcr7yulxW/view?usp=sharing">Google
-                        Kickstart 2022 Round B</a>.
-                </li>
+                <li>Reached 1851 rating and Knight badge on Leetcode.</li>
+                <li>Consistently ranked under 1000 in Leetcode & CodeChef contests.</li>
+                <li>Ranked 91st in GeeksForGeeks Weekly Contest 98.</li>
+                <li>Ranked 4139 in Google Kickstart 2022 Round B.</li>
             </ul>
         </section>
     </div>

@@ -10,9 +10,9 @@ async function generateResumePdf() {
   const page = await browser.newPage();
 
   await page.setViewport({
-    width: 1200,
-    height: 1600,
-    deviceScaleFactor: 0.8,
+    width: 800,
+    height: 1100,
+    deviceScaleFactor: 1.0,
   });
 
   const htmlPath = path.join(__dirname, "index.html");
@@ -27,13 +27,13 @@ async function generateResumePdf() {
     printBackground: true,
     preferCSSPageSize: true,
     margin: {
-      top: "1mm",
-      bottom: "1mm",
-      left: "1mm",
-      right: "1mm",
+      top: "0.4cm",
+      bottom: "0.4cm",
+      left: "0.8cm",
+      right: "0.8cm",
     },
     displayHeaderFooter: false,
-    scale: 1.0,
+    scale: 0.95, // Slightly reduced from 1.0 to fit content better
   };
 
   await page.pdf(pdfOptions);
